@@ -1,5 +1,16 @@
 # Clone the repository
-git clone https://github.com/your-username/TodoApp.git
+git clone https://github.com/BrijeshRanchod/TodoApp.git
+
+# Install Python 
+# For Windows
+winget install Python.Python.3.10
+
+# For Mac
+brew install python
+
+# For Linux
+sudo apt update
+sudo apt install python3
 
 # Navigate into the project directory
 cd TodoApp
@@ -12,7 +23,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # On Windows
-# venv\Scripts\activate
+venv\Scripts\activate
 
 # Install the dependencies from requirements.txt
 pip install -r requirements.txt
